@@ -6,7 +6,7 @@ import Cookies from 'js-cookie';
 
 class AuthApi {
   async signIn(request) {
-    const { email, password } = request;
+    const { email, password, remember } = request;
 
     const response = await apiRequest('auth/login', {
       method: 'POST',
@@ -14,6 +14,7 @@ class AuthApi {
       body: JSON.stringify({
         email,
         password,
+        remember,
       }),
     });
 

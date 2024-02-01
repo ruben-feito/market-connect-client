@@ -3,13 +3,12 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
 import {
-  Alert,
   Button,
   Card,
   CardContent,
   CardHeader,
+  Checkbox,
   FormHelperText,
-  Link,
   Stack,
   TextField,
   Typography,
@@ -23,6 +22,8 @@ import { Layout as AuthLayout } from '../../layouts/auth/classic-layout';
 import { paths } from '../../paths';
 import { AuthFooter } from '../../sections/auth/auth-footer';
 import { Issuer } from '../../utils/auth';
+import { Logo } from '../../components/logo';
+import { Box, padding } from '@mui/system';
 
 const useParams = () => {
   const searchParams = useSearchParams();
@@ -36,6 +37,7 @@ const useParams = () => {
 const initialValues = {
   email: '',
   password: '',
+  remember: false,
   submit: null,
 };
 
@@ -45,6 +47,7 @@ const validationSchema = Yup.object({
     .max(255)
     .required('El correo electrónico es obligatorio'),
   password: Yup.string().max(255).required('La contraseña es obligatoria'),
+  remember: Yup.boolean(),
 });
 
 const Page = () => {
@@ -57,7 +60,8 @@ const Page = () => {
     validationSchema,
     onSubmit: async (values, helpers) => {
       try {
-        await signIn(values.email, values.password);
+        console.log(values);
+        await signIn(values.email, values.password, values.remember);
 
         if (isMounted()) {
           router.push(returnTo || paths.index);
@@ -83,6 +87,19 @@ const Page = () => {
       </Head>
       <div>
         <Card elevation={16}>
+          <Box
+            sx={{
+              alignItems: 'center',
+              display: 'flex',
+              justifyContent: 'center',
+              flex: '1 1 auto',
+              pt: 7,
+              pb: 6,
+              mx: 15,
+            }}
+          >
+            <Logo fillColor1="#000000" fillColor2="orange" />
+          </Box>
           <CardHeader
             subheader={
               <Typography color="text.secondary" variant="body2">
@@ -91,9 +108,14 @@ const Page = () => {
             }
             sx={{
               pb: 0,
+              pt: 0,
               textAlign: 'center',
             }}
             title="Market Connect"
+            titleTypographyProps={{
+              variant: 'h4',
+              pb: 1,
+            }}
           />
           <CardContent>
             <form noValidate onSubmit={formik.handleSubmit}>
@@ -131,18 +153,36 @@ const Page = () => {
                 disabled={formik.isSubmitting}
                 fullWidth
                 size="large"
-                sx={{ mt: 2 }}
+                sx={{ mt: 3, py: 2 }}
                 type="submit"
                 variant="contained"
               >
                 {formik.isSubmitting ? 'Iniciando sesión...' : 'Iniciar sesión'}
               </Button>
+              <Box
+                sx={{
+                  pt: 3,
+                  display: 'flex', // Añadido para usar flexbox
+                  alignItems: 'center',
+                }}
+              >
+                <Typography variant="body3">
+                  <Checkbox
+                    {...formik.getFieldProps('remember')}
+                    checked={formik.values.remember}
+                    sx={{
+                      marginTop: 0.75,
+                      paddingTop: 0,
+                    }}
+                  />
+                  Recordarme
+                </Typography>
+              </Box>
             </form>
           </CardContent>
-        </Card>
-        <Stack spacing={3} sx={{ mt: 3 }}>
           <AuthFooter />
-        </Stack>
+        </Card>
+        {/* <Stack spacing={3} sx={{ mt: 3 }}></Stack> */}
       </div>
     </>
   );

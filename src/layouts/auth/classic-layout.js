@@ -2,47 +2,19 @@ import NextLink from 'next/link';
 import PropTypes from 'prop-types';
 import { Box, Container, Stack } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { Logo } from '../../components/logo';
-import { paths } from '../../paths';
 
-const TOP_NAV_HEIGHT = 90;
-
-const backgroundsWithColors = [
-  {
-    image: '/assets/sitelicon/login/metro.webp',
-    color1: '#FFFFFF',
-    color2: '#FFFFFF',
-  },
-  {
-    image: '/assets/sitelicon/login/nubes.webp',
-    color1: '#000000',
-    color2: 'orange',
-  },
-  {
-    image: '/assets/sitelicon/login/astronauta.webp',
-    color1: '#FFFFFF',
-    color2: '#FFFFFF',
-  },
-  {
-    image: '/assets/sitelicon/login/ciudad.webp',
-    color1: '#FFFFFF',
-    color2: '#FFFFFF',
-  },
-  {
-    image: '/assets/sitelicon/login/cohete.webp',
-    color1: '000000',
-    color2: 'orange',
-  },
-  {
-    image: '/assets/sitelicon/login/persona.webp',
-    color1: '#FFFFFF',
-    color2: '#FFFFFF',
-  },
+const backgrounds = [
+  '/assets/sitelicon/login/metro.webp',
+  '/assets/sitelicon/login/nubes.webp',
+  '/assets/sitelicon/login/astronauta.webp',
+  '/assets/sitelicon/login/ciudad.webp',
+  '/assets/sitelicon/login/cohete.webp',
+  '/assets/sitelicon/login/persona.webp',
 ];
 
 const randomBackgroundImage = () => {
-  const random = Math.floor(Math.random() * backgroundsWithColors.length);
-  return backgroundsWithColors[random];
+  const random = Math.floor(Math.random() * backgrounds.length);
+  return backgrounds[random];
 };
 
 const selectedBackground = randomBackgroundImage();
@@ -52,7 +24,7 @@ const LayoutRoot = styled('div')(({ theme }) => ({
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'center',
   backgroundSize: 'cover',
-  backgroundImage: `url(${selectedBackground.image})`,
+  backgroundImage: `url(${selectedBackground})`,
   display: 'flex',
   flex: '1 1 auto',
   flexDirection: 'column',
@@ -81,37 +53,6 @@ export const Layout = (props) => {
             },
           }}
         >
-          <Stack
-            direction="row"
-            justifyContent="center"
-            spacing={2}
-            sx={{ height: TOP_NAV_HEIGHT }}
-            mb={3}
-          >
-            <Stack
-              alignItems="center"
-              justifyContent="center"
-              component={NextLink}
-              direction="row"
-              display="inline-flex"
-              href={paths.index}
-              spacing={1}
-              sx={{ textDecoration: 'none' }}
-            >
-              <Box
-                sx={{
-                  display: 'inline-flex',
-                  height: 90,
-                  width: 300,
-                }}
-              >
-                <Logo
-                  fillColor1={selectedBackground.color1}
-                  fillColor2={selectedBackground.color2}
-                />
-              </Box>
-            </Stack>
-          </Stack>
           {children}
         </Container>
       </Box>
