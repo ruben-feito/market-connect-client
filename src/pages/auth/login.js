@@ -1,5 +1,9 @@
 import Head from 'next/head';
 import { useRouter, useSearchParams } from 'next/navigation';
+import IconButton from '@mui/material/IconButton';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import React, { useState } from 'react';
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
 import {
@@ -55,6 +59,8 @@ const Page = () => {
   const router = useRouter();
   const { returnTo } = useParams();
   const { issuer, signIn } = useAuth();
+  const [showPassword, setShowPassword] = useState(false);
+  const handleTogglePasswordVisibility = () => setShowPassword(!showPassword);
   const formik = useFormik({
     initialValues,
     validationSchema,
@@ -145,8 +151,28 @@ const Page = () => {
                   name="password"
                   onBlur={formik.handleBlur}
                   onChange={formik.handleChange}
-                  type="password"
+                  type={showPassword ? 'text' : 'password'}
                   value={formik.values.password}
+                  sx={{
+                    '& .MuiFilledInput-root': {
+                      borderTopRightRadius: '0',
+                    },
+                  }}
+                  InputProps={{
+                    endAdornment: (
+                      <IconButton
+                        onClick={handleTogglePasswordVisibility}
+                        edge="end"
+                        size="large"
+                      >
+                        {showPassword ? (
+                          <VisibilityOffIcon />
+                        ) : (
+                          <VisibilityIcon />
+                        )}
+                      </IconButton>
+                    ),
+                  }}
                 />
               </Stack>
               <Button

@@ -208,9 +208,8 @@ export const SideNav = (props) => {
             {sections
               .map((section) => ({
                 ...section,
-                items: section.items.filter(
-                  (item) => console.log(user),
-                  //user.role.menus.some((menu) => menu.code === item.title),
+                items: section.items.filter((item) =>
+                  user.role.menus.some((menu) => menu.code === item.title),
                 ),
               }))
               .filter((section) => section.items.length > 0)

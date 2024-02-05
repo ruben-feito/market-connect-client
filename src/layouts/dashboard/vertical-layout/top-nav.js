@@ -71,10 +71,10 @@ export const TopNav = (props) => {
               <strong>¡revisa la url!</strong>
             </Alert>
           )}
-          <LanguageSwitch />
+          {/* <LanguageSwitch /> */}
           <SearchButton />
           <NotificationsButton />
-          <Tooltip title="Formulario Incidencias">
+          {/* <Tooltip title="Formulario Incidencias">
             <IconButton
               component={Link}
               href="https://share.hsforms.com/1hYqu_go3TZ6E8H_OdFtiLg33jgb"
@@ -85,7 +85,7 @@ export const TopNav = (props) => {
                 <MessagePlusSquare />
               </SvgIcon>
             </IconButton>
-          </Tooltip>
+          </Tooltip> */}
           {/* <ContactsButton /> */}
           <AccountButton />
         </Stack>

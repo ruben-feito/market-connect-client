@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import ChevronDownIcon from '@untitled-ui/icons-react/build/esm/ChevronDown';
 import { Box, IconButton, Stack, SvgIcon, Typography } from '@mui/material';
 import { TenantPopover } from './tenant-popover';
+import { Logo } from '../../../components/logo';
 
 const tenants = ['🇪🇸 Español', '🇵🇹 Portugues', '🇮🇹 Italiano', '🇫🇷 Frances'];
 
@@ -28,11 +29,18 @@ export const TenantSwitch = (props) => {
     <>
       <Stack alignItems="center" direction="row" spacing={2} {...props}>
         <Box sx={{ flexGrow: 1 }}>
-          <Typography color="inherit" variant="h6" sx={{ mb: 0.5 }}>
-            PACOMARTINEZ
-          </Typography>
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: 107,
+            }}
+          >
+            <Logo />
+          </Box>
           <Typography color="neutral.500" variant="body2">
-            Enterprise resource planning
+            Market Connect
           </Typography>
         </Box>
         {/* <IconButton onClick={handlePopoverOpen} ref={anchorRef}>
