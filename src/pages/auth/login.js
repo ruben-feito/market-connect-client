@@ -89,7 +89,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Iniciar sesión | Market Connect</title>
+        <title>Iniciar sesión | Middleware</title>
       </Head>
       <div>
         <Card elevation={16}>
@@ -117,7 +117,7 @@ const Page = () => {
               pt: 0,
               textAlign: 'center',
             }}
-            title="Market Connect"
+            title="Middleware"
             titleTypographyProps={{
               variant: 'h4',
               pb: 1,
