@@ -18,7 +18,7 @@ const faqs = [
       'Yes, you can check out our open source dashboard template which should give you an overview of the code quality and folder structure. Keep in mind that some aspects may differ from this Paid version.',
   },
   {
-    question: 'How many projects can I build with PACOMARTINEZ?',
+    question: 'How many projects can I build with Sitelicon - MiddleWare?',
     answer:
       "The license is per project (domain), but if you intend to develop an unknown number of projects feel free to contact us and we'll find a solution.",
   },

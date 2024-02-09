@@ -253,7 +253,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Pedido # {order.order_number} | PACOMARTINEZ</title>
+        <title>Pedido # {order.order_number} | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

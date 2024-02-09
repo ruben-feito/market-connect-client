@@ -134,7 +134,9 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Maquetación Web # {layoutHomeWeb.id} | PACOMARTINEZ</title>
+        <title>
+          Maquetación Web # {layoutHomeWeb.id} | Sitelicon - MiddleWare
+        </title>
       </Head>
       <Box
         component="main"

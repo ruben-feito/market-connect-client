@@ -148,7 +148,7 @@ export const SocialProfile = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Social Profile | PACOMARTINEZ</title>
+        <title>Dashboard: Social Profile | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

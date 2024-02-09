@@ -202,7 +202,9 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Diseño category # {categoryLayout.id} | PACOMARTINEZ</title>
+        <title>
+          Diseño category # {categoryLayout.id} | Sitelicon - MiddleWare
+        </title>
       </Head>
       <Box
         component="main"

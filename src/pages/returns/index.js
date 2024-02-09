@@ -156,7 +156,7 @@ const ReturnsList = () => {
   return (
     <>
       <Head>
-        <title>Solicitudes RMA | PACOMARTINEZ</title>
+        <title>Solicitudes RMA | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

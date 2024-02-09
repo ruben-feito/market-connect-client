@@ -55,7 +55,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Academy Dashboard | PACOMARTINEZ</title>
+        <title>Dashboard: Academy Dashboard | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1 }}>
         <Box

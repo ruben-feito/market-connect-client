@@ -68,7 +68,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Logistics Fleet | PACOMARTINEZ</title>
+        <title>Dashboard: Logistics Fleet | Sitelicon - MiddleWare</title>
       </Head>
       <Divider />
       <Box

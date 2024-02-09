@@ -65,7 +65,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Editar cliente | PACOMARTINEZ</title>
+        <title>Editar cliente | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

@@ -137,7 +137,7 @@ const CartsList = () => {
   return (
     <>
       <Head>
-        <title>Carritos abandonados | PACOMARTINEZ</title>
+        <title>Carritos abandonados | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

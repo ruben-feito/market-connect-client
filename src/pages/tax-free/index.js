@@ -106,7 +106,7 @@ const TaxFreeRequestsList = () => {
   return (
     <>
       <Head>
-        <title>Solicitudes TAX FREE | PACOMARTINEZ</title>
+        <title>Solicitudes TAX FREE | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

@@ -180,7 +180,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Kanban | PACOMARTINEZ</title>
+        <title>Dashboard: Kanban | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

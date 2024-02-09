@@ -329,7 +329,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Menu # {images[0]?.category_id} | PACOMARTINEZ</title>
+        <title>Menu # {images[0]?.category_id} | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

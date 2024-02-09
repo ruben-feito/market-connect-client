@@ -77,7 +77,7 @@ const PopUp = () => {
   return (
     <>
       <Head>
-        <title>Popups | PACOMARTINEZ</title>
+        <title>Popups | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1 }}>
         <Box sx={{ p: 3 }}>

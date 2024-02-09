@@ -95,7 +95,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Blog: Post Details | PACOMARTINEZ</title>
+        <title>Blog: Post Details | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

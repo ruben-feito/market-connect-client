@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>PACOMARTINEZ</title>
+        <title>Sitelicon - MiddleWare</title>
       </Head>
       <main>
         <HomeHero />

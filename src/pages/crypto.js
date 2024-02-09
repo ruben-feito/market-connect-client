@@ -32,7 +32,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Crypto | PACOMARTINEZ</title>
+        <title>Dashboard: Crypto | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

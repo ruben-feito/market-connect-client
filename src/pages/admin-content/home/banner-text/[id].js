@@ -179,7 +179,9 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Diseño banner # {bannerTextLayout.id} | PACOMARTINEZ</title>
+        <title>
+          Diseño banner # {bannerTextLayout.id} | Sitelicon - MiddleWare
+        </title>
       </Head>
       <Box
         component="main"

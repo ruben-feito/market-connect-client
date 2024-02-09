@@ -164,7 +164,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Mail | PACOMARTINEZ</title>
+        <title>Dashboard: Mail | Sitelicon - MiddleWare</title>
       </Head>
       <Divider />
       <Box

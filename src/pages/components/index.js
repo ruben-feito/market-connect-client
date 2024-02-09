@@ -130,7 +130,7 @@ const Page = () => {
   return (
     <Box>
       <Head>
-        <title>Components | PACOMARTINEZ</title>
+        <title>Components | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         sx={{

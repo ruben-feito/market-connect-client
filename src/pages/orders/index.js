@@ -241,7 +241,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Pedidos | PACOMARTINEZ</title>
+        <title>Pedidos | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"
@@ -360,7 +360,7 @@ const Page = () => {
                           shipping_type:
                             order.shipping_type === 'pickup'
                               ? `Recogida en tienda - ${order.shipping_name.replace(
-                                  /PACOMARTINEZ - /g,
+                                  /Sitelicon - MiddleWare - /g,
                                   '',
                                 )}`
                               : 'A domicilio',

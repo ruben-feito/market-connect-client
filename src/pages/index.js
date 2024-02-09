@@ -199,7 +199,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Inicio | PACOMARTINEZ</title>
+        <title>Inicio | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

@@ -20,7 +20,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Error: Página no encontrada | PACOMARTINEZ</title>
+        <title>Error: Página no encontrada | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

@@ -127,7 +127,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Facturas | PACOMARTINEZ</title>
+        <title>Facturas | Sitelicon - MiddleWare</title>
       </Head>
       <Divider />
       <Box

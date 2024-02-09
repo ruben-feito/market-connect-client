@@ -20,7 +20,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Error: Autorización requerida | PACOMARTINEZ</title>
+        <title>Error: Autorización requerida | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

@@ -20,7 +20,7 @@ const ProductCreate = () => {
   return (
     <>
       <Head>
-        <title>Crear producto | PACOMARTINEZ</title>
+        <title>Crear producto | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 8 }}>
         <Container maxWidth="xl">

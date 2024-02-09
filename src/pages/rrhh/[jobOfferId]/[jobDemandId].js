@@ -74,7 +74,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          {`Candidato: ${candidate?.demand_name} ${candidate?.demand_surname} | PACOMARTINEZ}`}
+          {`Candidato: ${candidate?.demand_name} ${candidate?.demand_surname} | Sitelicon - MiddleWare}`}
         </title>
       </Head>
       <Box sx={{ flexGrow: 1, py: 4 }}>

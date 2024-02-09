@@ -109,7 +109,9 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Popup: {item.title || 'Cargando...'} | PACOMARTINEZ</title>
+        <title>
+          Popup: {item.title || 'Cargando...'} | Sitelicon - MiddleWare
+        </title>
       </Head>
       <Box sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

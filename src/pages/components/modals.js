@@ -64,7 +64,7 @@ export const Page = () => {
   return (
     <>
       <Head>
-        <title>Components: Modals | PACOMARTINEZ</title>
+        <title>Components: Modals | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

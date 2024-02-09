@@ -66,7 +66,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Descuento | PACOMARTINEZ</title>
+        <title>Descuento | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

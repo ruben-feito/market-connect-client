@@ -28,7 +28,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Logistics Dashboard | PACOMARTINEZ</title>
+        <title>Dashboard: Logistics Dashboard | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

@@ -85,7 +85,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Checkout | PACOMARTINEZ</title>
+        <title>Checkout | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

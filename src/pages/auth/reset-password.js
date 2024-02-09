@@ -93,7 +93,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Cambio de contraseña | PACOMARTINEZ</title>
+        <title>Cambio de contraseña | Sitelicon - MiddleWare</title>
       </Head>
       <div>
         <Card elevation={16}>

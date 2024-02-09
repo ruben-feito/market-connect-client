@@ -104,7 +104,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Color: {color[0].name_admin || 'Cargando…'} | PACOMARTINEZ
+          Color: {color[0].name_admin || 'Cargando…'} | Sitelicon - MiddleWare
         </title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>

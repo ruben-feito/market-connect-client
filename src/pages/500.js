@@ -20,7 +20,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Error: Server Error | PACOMARTINEZ</title>
+        <title>Error: Server Error | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

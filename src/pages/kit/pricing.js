@@ -21,7 +21,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Pricing | PACOMARTINEZ</title>
+        <title>Pricing | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1 }}>
         <Box

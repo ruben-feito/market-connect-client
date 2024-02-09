@@ -204,7 +204,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: File Manager | PACOMARTINEZ</title>
+        <title>Dashboard: File Manager | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

@@ -211,7 +211,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Calendar | PACOMARTINEZ</title>
+        <title>Dashboard: Calendar | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

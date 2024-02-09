@@ -85,7 +85,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Register | PACOMARTINEZ</title>
+        <title>Register | Sitelicon - MiddleWare</title>
       </Head>
       <div>
         <Card elevation={16}>

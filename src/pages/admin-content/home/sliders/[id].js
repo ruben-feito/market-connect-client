@@ -161,7 +161,9 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Diseño slider # {sliderLayout.id} | PACOMARTINEZ</title>
+        <title>
+          Diseño slider # {sliderLayout.id} | Sitelicon - MiddleWare
+        </title>
       </Head>
       <Box
         component="main"

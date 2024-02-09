@@ -117,7 +117,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Chat | PACOMARTINEZ</title>
+        <title>Dashboard: Chat | Sitelicon - MiddleWare</title>
       </Head>
       <Divider />
       <Box

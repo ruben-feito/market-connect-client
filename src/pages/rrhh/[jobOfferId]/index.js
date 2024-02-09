@@ -117,7 +117,7 @@ const Page = () => {
       <Head>
         <title>
           Oferta de trabajo: {jobOffer.position_name || 'Cargando...'} |
-          PACOMARTINEZ
+          Sitelicon - MiddleWare
         </title>
       </Head>
       <Box sx={{ flexGrow: 1, py: 4 }}>

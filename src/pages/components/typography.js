@@ -12,7 +12,7 @@ export const Page = () => {
   return (
     <>
       <Head>
-        <title>Components: Typography | PACOMARTINEZ</title>
+        <title>Components: Typography | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

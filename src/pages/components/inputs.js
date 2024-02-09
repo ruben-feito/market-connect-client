@@ -39,7 +39,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Components: Inputs | PACOMARTINEZ</title>
+        <title>Components: Inputs | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

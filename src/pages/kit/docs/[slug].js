@@ -51,7 +51,7 @@ const Page = (props) => {
   return (
     <>
       <Head>
-        <title>{`Docs: ${article.title} | PACOMARTINEZ`}</title>
+        <title>{`Docs: ${article.title} | Sitelicon - MiddleWare`}</title>
       </Head>
       <Container maxWidth="lg" sx={{ pb: '120px' }}>
         <ArticleContent content={article.content || ''} />

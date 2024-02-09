@@ -112,7 +112,7 @@ const DiscountsList = () => {
   return (
     <>
       <Head>
-        <title>Descuentos catálogo | PACOMARTINEZ</title>
+        <title>Descuentos catálogo | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

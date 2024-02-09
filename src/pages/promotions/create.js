@@ -20,7 +20,7 @@ const PromotionCreate = () => {
   return (
     <>
       <Head>
-        <title>Crear promoción carrito | PACOMARTINEZ</title>
+        <title>Crear promoción carrito | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

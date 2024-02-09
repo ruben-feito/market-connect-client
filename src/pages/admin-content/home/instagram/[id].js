@@ -166,7 +166,9 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Diseño Instagram # {instagramLayout.id} | PACOMARTINEZ</title>
+        <title>
+          Diseño Instagram # {instagramLayout.id} | Sitelicon - MiddleWare
+        </title>
       </Head>
       <Box
         component="main"

@@ -322,7 +322,7 @@ const CategoryCreatePage = () => {
   return (
     <>
       <Head>
-        <title>Crear categoría | PACOMARTINEZ</title>
+        <title>Crear categoría | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

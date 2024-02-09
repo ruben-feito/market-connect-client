@@ -125,7 +125,9 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Carrito # {fillWithZeros(cart.id)} | PACOMARTINEZ</title>
+        <title>
+          Carrito # {fillWithZeros(cart.id)} | Sitelicon - MiddleWare
+        </title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="lg">

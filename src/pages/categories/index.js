@@ -83,7 +83,7 @@ const CategoryList = () => {
   return (
     <>
       <Head>
-        <title>Listado de categorías | PACOMARTINEZ</title>
+        <title>Listado de categorías | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

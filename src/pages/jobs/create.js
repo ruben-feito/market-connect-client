@@ -10,7 +10,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Job Create | PACOMARTINEZ</title>
+        <title>Dashboard: Job Create | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

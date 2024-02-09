@@ -47,7 +47,7 @@ export const Layout = (props) => {
       >
         <Box maxWidth="md">
           <Typography sx={{ mb: 1 }} variant="h4">
-            Welcome to PACOMARTINEZ
+            Welcome to Middleware
           </Typography>
           <Typography color="text.secondary" sx={{ mb: 4 }}>
             A professional kit that comes with ready-to-use MUI components

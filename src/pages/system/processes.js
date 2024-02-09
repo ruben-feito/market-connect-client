@@ -57,7 +57,7 @@ const ProcessesList = () => {
   return (
     <>
       <Head>
-        <title>Listado de procesos | PACOMARTINEZ</title>
+        <title>Listado de procesos | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>
         <Container maxWidth="xl">

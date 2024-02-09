@@ -24,7 +24,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Components: Colors | PACOMARTINEZ</title>
+        <title>Components: Colors | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

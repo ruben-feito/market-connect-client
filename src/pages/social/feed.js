@@ -43,7 +43,7 @@ const SocialFeed = () => {
   return (
     <>
       <Head>
-        <title>Dashboard: Social Feed | PACOMARTINEZ</title>
+        <title>Dashboard: Social Feed | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

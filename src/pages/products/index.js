@@ -202,7 +202,7 @@ const ProductList = () => {
   return (
     <>
       <Head>
-        <title>Listado de productos | PACOMARTINEZ</title>
+        <title>Listado de productos | Sitelicon - MiddleWare</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1 }}>
         <Box sx={{ p: 3 }}>

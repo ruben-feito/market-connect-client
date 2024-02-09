@@ -29,7 +29,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Components: Buttons | PACOMARTINEZ</title>
+        <title>Components: Buttons | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"

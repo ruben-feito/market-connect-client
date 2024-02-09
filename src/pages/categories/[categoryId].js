@@ -479,7 +479,8 @@ const CategoryEditPage = () => {
     <>
       <Head>
         <title>
-          {name} (ID: {category.id}) | Listado de categorías | PACOMARTINEZ
+          {name} (ID: {category.id}) | Listado de categorías | Sitelicon -
+          MiddleWare
         </title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, py: 4 }}>

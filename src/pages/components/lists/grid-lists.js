@@ -44,7 +44,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Components: Grid Lists | PACOMARTINEZ</title>
+        <title>Components: Grid Lists | Sitelicon - MiddleWare</title>
       </Head>
       <Box
         component="main"
